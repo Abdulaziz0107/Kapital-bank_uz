@@ -1,0 +1,1073 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+@media (min-width: 1400px) {
+  /* header */
+  header {
+    width: 100%;
+    height: 550px;
+    background-color: red;
+    background: url(../photos/bg_olcha.png),
+      linear-gradient(white, grey, rgba(0, 0, 0, 0.8));
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  header .top {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .top .logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  header .top .logo img {
+    width: 80px;
+    height: 70px;
+    border-radius: 12px;
+  }
+  header .top .logo a {
+    font-size: 40px;
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  header .top .page {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  header .top .page li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  header .top .page li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+  }
+
+  /* products */
+  .products {
+    width: 100%;
+    height: 950px;
+  }
+  .products h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .products .content {
+    width: 90%;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .products .content .card {
+    width: 290px;
+    height: 420px;
+    box-shadow: 0 0 10px black;
+  }
+  .products .content .card img {
+    width: 100%;
+    height: 205px;
+  }
+
+  /* about */
+  .about {
+    width: 100%;
+    height: 500px;
+  }
+  .about h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .about .text {
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .about .text img {
+    width: 30%;
+    height: 100%;
+  }
+  .about .text p {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  /* team */
+  .team {
+    width: 100%;
+    height: 500px;
+  }
+  .team h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .team .leaders {
+    width: 90%;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 36px;
+  }
+  .team .leaders .box {
+    box-shadow: 0 0 16px black;
+    text-align: center;
+    font-weight: 700;
+  }
+  .team .leaders .box .ico {
+    width: 80px;
+    height: 30px;
+    margin: auto;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  /* contact */
+  .contact {
+    width: 100%;
+    height: 450px;
+  }
+  .contact h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .contact .container {
+    margin-top: 30px;
+  }
+  .contact .container .form-control {
+    margin-top: 20px;
+  }
+
+  /* footer */
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer .right {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  footer .center h1 a {
+    text-decoration: none;
+    color: black;
+  }
+  footer .right li a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+  }
+  footer .right li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* header */
+  header {
+    width: 100%;
+    height: 550px;
+    background-color: red;
+    background: url(../photos/bg_olcha.png),
+      linear-gradient(white, grey, rgba(0, 0, 0, 0.8));
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  header .top {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .top .logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  header .top .logo img {
+    width: 75px;
+    height: 65px;
+    border-radius: 12px;
+  }
+  header .top .logo a {
+    font-size: 36px;
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  header .top .page {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  header .top .page li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  header .top .page li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+  }
+
+  /* products */
+  .products {
+    width: 100%;
+    height: auto;
+  }
+  .products h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .products .content {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .products .content .card {
+    width: 18rem;
+    height: 420px;
+    margin: 20px;
+    box-shadow: 0 0 10px black;
+  }
+  .products .content .card img {
+    width: 100%;
+    height: 205px;
+  }
+
+  /* about */
+  .about {
+    width: 100%;
+    height: auto;
+  }
+  .about h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .about .text {
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .about .text img {
+    width: 30%;
+    height: 100%;
+  }
+  .about .text p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  /* team */
+  .team {
+    width: 100%;
+    height: 500px;
+  }
+  .team h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .team .leaders {
+    width: 90%;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 32px;
+  }
+  .team .leaders .box {
+    box-shadow: 0 0 16px black;
+    text-align: center;
+    font-weight: 700;
+  }
+  .team .leaders .box h4 {
+    font-size: 24px;
+  }
+  .team .leaders .box h5 {
+    font-size: 20px;
+  }
+  .team .leaders .box .ico {
+    width: 80px;
+    height: 30px;
+    margin: auto;
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  /* contact */
+  .contact {
+    width: 100%;
+    height: auto;
+  }
+  .contact h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .contact .container {
+    margin-top: 30px;
+  }
+  .contact .container .form-control {
+    margin-top: 20px;
+  }
+
+  /* footer */
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+  }
+  footer .left h2 {
+    font-size: 30px;
+  }
+  footer .left h4 {
+    font-size: 22px;
+  }
+  footer .right {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+  }
+  footer .center h1 a {
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+  }
+  footer .right li a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+  }
+  footer .right li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* header */
+  header {
+    width: 100%;
+    height: 550px;
+    background-color: red;
+    background: url(../photos/bg_olcha.png),
+      linear-gradient(white, grey, rgba(0, 0, 0, 0.8));
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  header .top {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .top .logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  header .top .logo img {
+    width: 70px;
+    height: 60px;
+    border-radius: 12px;
+  }
+  header .top .logo a {
+    font-size: 32px;
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  header .top .page {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  header .top .page li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  header .top .page li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+  }
+
+  /* products */
+  .products {
+    width: 100%;
+    height: auto;
+  }
+  .products h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .products .content {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .products .content .card {
+    width: 16rem;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 0 0 10px black;
+  }
+  .products .content .card .card-body h5 {
+    font-size: 18px;
+  }
+  .products .content .card .card-body p {
+    font-size: 12px;
+  }
+  .products .content .card .card-body h6 {
+    font-size: 16px;
+  }
+  .products .content .card img {
+    width: 100%;
+    height: 205px;
+  }
+
+  /* about */
+  .about {
+    width: 100%;
+    height: auto;
+  }
+  .about h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .about .text {
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .about .text img {
+    width: 30%;
+    height: 100%;
+  }
+  .about .text p {
+    font-size: 16px;
+  }
+
+  /* team */
+  .team {
+    width: 100%;
+    height: 500px;
+  }
+  .team h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .team .leaders {
+    width: 90%;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 32px;
+  }
+  .team .leaders .box {
+    width: 23%;
+    box-shadow: 0 0 16px black;
+    text-align: center;
+    font-weight: 700;
+  }
+  .team .leaders .box img {
+    width: 100%;
+  }
+  .team .leaders .box h4 {
+    font-size: 22px;
+  }
+  .team .leaders .box h5 {
+    font-size: 18px;
+  }
+  .team .leaders .box .ico {
+    width: 70px;
+    height: 25px;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  /* contact */
+  .contact {
+    width: 100%;
+    height: auto;
+  }
+  .contact h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .contact .container {
+    margin-top: 30px;
+  }
+  .contact .container .form-control {
+    margin-top: 20px;
+  }
+
+  /* footer */
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+  }
+  footer .left h2 {
+    font-size: 28px;
+  }
+  footer .left h4 {
+    font-size: 20px;
+  }
+  footer .right {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+  }
+  footer .center h1 a {
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+  }
+  footer .right li a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+  }
+  footer .right li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  /* header */
+  header {
+    width: 100%;
+    height: 550px;
+    background-color: red;
+    background: url(../photos/bg_olcha.png),
+      linear-gradient(white, grey, rgba(0, 0, 0, 0.8));
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  header .top {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .top .logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  header .top .logo img {
+    width: 65px;
+    height: 55px;
+    border-radius: 12px;
+  }
+  header .top .logo a {
+    font-size: 28px;
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  header .top .page {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  header .top .page li a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  header .top .page li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+  }
+
+  /* products */
+  .products {
+    width: 100%;
+    height: auto;
+  }
+  .products h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .products .content {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .products .content .card {
+    width: 16rem;
+    height: 360px;
+    margin: 20px;
+    box-shadow: 0 0 10px black;
+  }
+  .products .content .card .card-body h5 {
+    font-size: 16px;
+  }
+  .products .content .card .card-body p {
+    font-size: 10px;
+  }
+  .products .content .card .card-body h6 {
+    font-size: 14px;
+  }
+  .products .content .card img {
+    width: 100%;
+    height: 50%;
+  }
+
+  /* about */
+  .about {
+    width: 100%;
+    height: auto;
+  }
+  .about h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .about .text {
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .about .text img {
+    width: 30%;
+    height: 100%;
+  }
+  .about .text p {
+    font-size: 14px;
+  }
+
+  /* team */
+  .team {
+    width: 100%;
+    height: 500px;
+  }
+  .team h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .team .leaders {
+    width: 90%;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 32px;
+  }
+  .team .leaders .box {
+    width: 23%;
+    box-shadow: 0 0 16px black;
+    text-align: center;
+    font-weight: 700;
+  }
+  .team .leaders .box img {
+    width: 100%;
+  }
+  .team .leaders .box h4 {
+    font-size: 20px;
+  }
+  .team .leaders .box h5 {
+    font-size: 16px;
+  }
+  .team .leaders .box .ico {
+    width: 70px;
+    height: 25px;
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  /* contact */
+  .contact {
+    width: 100%;
+    height: auto;
+  }
+  .contact h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .contact .container {
+    margin-top: 30px;
+  }
+  .contact .container .form-control {
+    margin-top: 20px;
+  }
+
+  /* footer */
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+  }
+  footer .left h2 {
+    font-size: 26px;
+  }
+  footer .left h4 {
+    font-size: 18px;
+  }
+  footer .right {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+  }
+  footer .center h1 a {
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+  }
+  footer .right li a {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+  }
+  footer .right li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+  }
+}
+@media(min-width:576px) and (max-width:768px){
+  /* header */
+  header {
+    width: 100%;
+    height: 550px;
+    background-color: red;
+    background: url(../photos/bg_olcha.png),
+      linear-gradient(white, grey, rgba(0, 0, 0, 0.8));
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  header .top {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .top .logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  header .top .logo img {
+    width: 60px;
+    height: 50px;
+    border-radius: 12px;
+  }
+  header .top .logo a {
+    font-size: 24px;
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  header .top .page {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  header .top .page li a {
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  header .top .page li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+  }
+
+  /* products */
+  .products {
+    width: 100%;
+    height: auto;
+  }
+  .products h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .products .content {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .products .content .card {
+    width: 14rem;
+    height: 320px;
+    margin: 20px;
+    box-shadow: 0 0 10px black;
+  }
+  .products .content .card .card-body h5 {
+    font-size: 14px;
+  }
+  .products .content .card .card-body p {
+    font-size: 9px;
+  }
+  .products .content .card .card-body h6 {
+    font-size: 12px;
+  }
+  .products .content .card img {
+    width: 100%;
+    height: 50%;
+  }
+
+  /* about */
+  .about {
+    width: 100%;
+    height: auto;
+  }
+  .about h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .about .text {
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .about .text img {
+    width: 25%;
+    height: 100%;
+  }
+  .about .text p {
+    font-size: 12px;
+  }
+
+  /* team */
+  .team {
+    width: 100%;
+    height: 500px;
+  }
+  .team h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .team .leaders {
+    width: 90%;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 32px;
+  }
+  .team .leaders .box {
+    width: 23%;
+    box-shadow: 0 0 16px black;
+    text-align: center;
+    font-weight: 700;
+  }
+  .team .leaders .box img {
+    width: 100%;
+  }
+  .team .leaders .box h4 {
+    font-size: 20px;
+  }
+  .team .leaders .box h5 {
+    font-size: 16px;
+  }
+  .team .leaders .box .ico {
+    width: 70px;
+    height: 25px;
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  /* contact */
+  .contact {
+    width: 100%;
+    height: auto;
+  }
+  .contact h1 {
+    font-weight: 700;
+    color: red;
+  }
+  .contact .container {
+    margin-top: 30px;
+  }
+  .contact .container .form-control {
+    margin-top: 20px;
+  }
+
+  /* footer */
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+  }
+  footer .left h2 {
+    font-size: 26px;
+  }
+  footer .left h4 {
+    font-size: 18px;
+  }
+  footer .right {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+  }
+  footer .center h1 a {
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+  }
+  footer .right li a {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+  }
+  footer .right li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+  }
+}
